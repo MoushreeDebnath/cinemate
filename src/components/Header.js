@@ -35,7 +35,7 @@ export const Header = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src={Logo} className="h-8" alt="Cinemate Logo" />
-            <span className="text-2xl self-center font-semibold whitespace-nowrap dark:text-white">Cinemamate</span>
+            <span className="text-2xl self-center font-semibold whitespace-nowrap dark:text-white">Cinemate</span>
           </Link>
 
           {/* for mobile manu */}
