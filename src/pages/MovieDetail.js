@@ -21,7 +21,7 @@ export const MovieDetail = () => {
       setMovie(data);
     };
     fetchMovies();
-  }, []);
+  }, [params.id]);
 
   useEffect(()=>{
     document.title =`${movie.title} / Cinemate`
